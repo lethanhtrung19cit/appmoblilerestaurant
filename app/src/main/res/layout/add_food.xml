@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/nameFoodAdd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Tên món ăn">
+
+    </EditText>
+    <EditText
+        android:id="@+id/priceAdd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Giá">
+
+    </EditText>
+    <EditText
+        android:id="@+id/urlImage"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Link ảnh">
+
+    </EditText>
+    <EditText
+        android:id="@+id/amountAdd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Số lượng">
+
+    </EditText>
+    <EditText
+        android:id="@+id/statusAdd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Trạng thái">
+
+    </EditText>
+    <Button
+        android:id="@+id/btnAddFoodAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm">
+
+    </Button>
+</LinearLayout>
